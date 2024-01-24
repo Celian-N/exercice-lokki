@@ -1,0 +1,21 @@
+.currency-converter {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 12px;
+  background-color: #5a5a5a;
+  padding: 24px;
+  box-shadow: 0px 0px 10px 0px rgb(205 205 205);
+}
+
+.currency-picker__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.currency-picker {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
