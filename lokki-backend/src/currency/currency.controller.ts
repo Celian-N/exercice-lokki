@@ -22,7 +22,6 @@ export class CurrencyController {
 
   @Get(':baseCurrency')
   async getCurrencyChange(@Param() params: CurrencyParams) {
-    // return { result: 'HOLA' };
     const { baseCurrency } = params;
     const { result } =
       await this.currencyService.getCurrencyChange(baseCurrency);
